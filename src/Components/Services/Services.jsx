@@ -1,8 +1,9 @@
-import React,{ Fragment } from 'react';
+import React,{ Fragment} from 'react';
 import Card from '../Card/Card';
 import sData from '../../ServiceData/ServiceData'
 
 function Services(props) {
+
     return (
         <Fragment>
             <div className="my-5">
@@ -13,7 +14,7 @@ function Services(props) {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row gy-4">
-                                {
+                                { 
                                     sData.map(val=>{
                                         return (
                                             <Card 
